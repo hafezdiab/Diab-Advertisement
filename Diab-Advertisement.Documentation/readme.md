@@ -14,3 +14,5 @@ Der Produkt-Owner kann sich selber entscheiden wie das Inserat veröffentlicht w
 ### [Infrastuktur](./infrastruktur.md)
 
 ### [Sicherheit](./sicherheit.md)
+
+### [Architektur](./architecture.md)
