@@ -21,10 +21,6 @@
   },
   {
     "Id": 6,
-    "Name": "Vue"
-  },
-  {
-    "Id": 7,
-    "Name": "CSharp"
+    "Name": "Redis"
   }
 ]
