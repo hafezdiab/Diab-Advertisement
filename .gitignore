@@ -4,3 +4,4 @@ appsettings.json
 *.vsidx
 .vs/
 .vs/*
+/.vs/Diab-Advertisement/config/applicationhost.config
