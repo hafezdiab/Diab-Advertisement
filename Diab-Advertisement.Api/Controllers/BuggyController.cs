@@ -1,4 +1,5 @@
-﻿using Diab_Advertisement.Infrastructure.Data;
+﻿using Diab_Advertisement.Api.Errors;
+using Diab_Advertisement.Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Diab_Advertisement.Api.Controllers
@@ -21,7 +22,7 @@ namespace Diab_Advertisement.Api.Controllers
 
             if (thing == null)
             {
-                return NotFound();
+                return NotFound(new ApiResponse(404));
             }
 
             return Ok();
@@ -41,7 +42,7 @@ namespace Diab_Advertisement.Api.Controllers
         [HttpGet("badrequest")]
         public ActionResult GetBadRequest()
         {
-            return BadRequest();
+            return BadRequest(new ApiResponse(400));
         }
 
         [HttpGet("badrequest/{id}")]
